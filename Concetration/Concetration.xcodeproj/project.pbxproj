@@ -15,6 +15,7 @@
 		41A6B8882212A4360023CE19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A6B8862212A4360023CE19 /* Main.storyboard */; };
 		41A6B88A2212A4370023CE19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A6B8892212A4370023CE19 /* Assets.xcassets */; };
 		41A6B88D2212A4370023CE19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A6B88B2212A4370023CE19 /* LaunchScreen.storyboard */; };
+		93F2DCFD22A0416600BD495E /* PaddingString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F2DCFC22A0416600BD495E /* PaddingString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		41A6B8892212A4370023CE19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A6B88C2212A4370023CE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A6B88E2212A4370023CE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F2DCFC22A0416600BD495E /* PaddingString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				41A6B8862212A4360023CE19 /* Main.storyboard */,
 				41A6B88E2212A4370023CE19 /* Info.plist */,
 				411E2345222FB3B80003CEE0 /* Int+Random.swift */,
+				93F2DCFC22A0416600BD495E /* PaddingString.swift */,
 			);
 			path = Concetration;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F2DCFD22A0416600BD495E /* PaddingString.swift in Sources */,
 				41A6B8852212A4360023CE19 /* ViewController.swift in Sources */,
 				41A6B8832212A4360023CE19 /* AppDelegate.swift in Sources */,
 				411E2346222FB3B80003CEE0 /* Int+Random.swift in Sources */,
@@ -170,6 +174,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		41A6B88B2212A4370023CE19 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -303,7 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35WX7RQ5M8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Concetration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -321,7 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35WX7RQ5M8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Concetration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
